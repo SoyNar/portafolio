@@ -76,23 +76,31 @@ nav a{
     flex-direction: row;
 }
 
-.container_about .subtitle, .p_about{
+.container_about .subtitle{
     background: fuchsia;
     text-align: center;
+    font-size: 2em;
     
 
 }
+.p_about, .skills h3{
+    text-align: center;
+}
+
 .skills{
     background: rgb(74, 223, 29);
     width: 50%;
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
    
 }
+
 .container_skills{
     background: red;
     display: flex;
     flex-direction: row;
+    align-items: center;
+    
 }
 .knowme{
     width: 50%;
@@ -101,13 +109,13 @@ nav a{
 .content_skills{
     display: flex;
     flex-direction: row;
-    background: goldenrod;
+    background: rgb(197, 24, 183);
     height: 20%;
-    margin-top: 3em;
+    margin: 2em;
 }
 .html, .javascript, .seo{
     background: rebeccapurple;
-    width: 20%;
+    width: 15%;
 }
 .css , .responsive_desing, .terminal{
     background: hotpink;
