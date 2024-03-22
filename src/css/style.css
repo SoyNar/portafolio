@@ -4,7 +4,7 @@ body{
     box-sizing: border-box;
 }
 main{
-    background: antiquewhite;
+    background: #ffffff;
 }
 
 .container_header{
@@ -14,6 +14,9 @@ main{
     justify-content:space-between; 
     color: black;
     font-weight: bold;
+    position: fixed;
+    background: #ffffff;
+
 }
 .image_logo{
     display: flex;
@@ -48,14 +51,13 @@ nav a{
 .container_text{
     width: 100%;
     text-align: center;
-    background: red;
     height:25em;
     padding: 2em;
+    background-color: gray;
 
 }
 .container_text h1{
     font-size: 4em;
-    background: blue;
     text-align: center;
 }
 .container_text p{
@@ -71,13 +73,11 @@ nav a{
 /* section about me */
 
 .about{
-    background: khaki;
     display:flex;
     flex-direction: row;
 }
 
 .container_about .subtitle{
-    background: fuchsia;
     text-align: center;
     font-size: 2em;
     
@@ -88,7 +88,6 @@ nav a{
 }
 
 .skills{
-    background: rgb(74, 223, 29);
     width: 50%;
     display: flex;
     flex-direction: column;
@@ -96,7 +95,6 @@ nav a{
 }
 
 .container_skills{
-    background: red;
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -104,20 +102,52 @@ nav a{
 }
 .knowme{
     width: 50%;
-    background: white;
+    margin: 1em;
+    display: flex;
+    flex-direction: column;
+    padding: 1em;
+}
+button{
+    text-align: center;
+    width: 30%;
+    height: 4em;
+    margin-bottom: 0.6em;
 }
 .content_skills{
     display: flex;
     flex-direction: row;
-    background: rgb(197, 24, 183);
     height: 20%;
     margin: 2em;
 }
 .html, .javascript, .seo{
-    background: rebeccapurple;
     width: 15%;
 }
 .css , .responsive_desing, .terminal{
-    background: hotpink;
     width: 20%;
+}
+/* section projects */
+
+.container_projects{
+    text-align: center;
+    margin: 2em;
+    padding-top: 1em;
+}
+.container_projects h2{
+    font-size: 3em;
+}
+.container_group{
+    display: flex;
+    flex-direction: column;
+}
+.container_img, .container_img1, .container_img2, .container_img3{
+    display: flex;
+    justify-content: space-between;
+    padding: 2em;
+    align-items: center;
+    margin-top: 1em;
+
+}
+img{
+    width: 30em;
+    margin-bottom: 1em;
 }
