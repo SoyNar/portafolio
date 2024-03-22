@@ -3,6 +3,7 @@ body{
     margin: 0;
     box-sizing: border-box;
 }
+
 main{
     background: #ffffff;
 }
@@ -18,6 +19,7 @@ main{
     background: #ffffff;
 
 }
+
 .image_logo{
     display: flex;
     flex-direction: row;
@@ -26,6 +28,7 @@ main{
     width: 30%;
     padding-left: 2em;
 }
+
 .container_logo img{
    width: 10%;
 }
@@ -43,11 +46,13 @@ ul{
 li{
     margin: 0.8em;
 }
+
 nav a{
     text-decoration: none;
     color: black;
 
 }
+/* First Secction */
 .container_text{
     width: 100%;
     text-align: center;
@@ -75,6 +80,7 @@ nav a{
 .about{
     display:flex;
     flex-direction: row;
+    background:  #eee9e8 ;
 }
 
 .container_about .subtitle{
@@ -91,13 +97,25 @@ nav a{
     width: 50%;
     display: flex;
     flex-direction: column;
-   
+    margin: 2em;
+    gap:2em;
 }
-
+.html, .css, .javascript, .responsive_desing, .seo, .terminal{
+    background:  #a6acaf ;
+    width: 6em;
+    border-radius: 0.5em;
+    margin-left: 0.6em;
+}
+.skills p{
+    text-align: center;
+    font-size: 0.6em;
+    margin:2em;
+    font-weight: bold;
+}
 .container_skills{
     display: flex;
     flex-direction: row;
-    align-items: center;
+    margin-top: 2em;
     
 }
 .knowme{
@@ -127,13 +145,20 @@ button{
 }
 /* section projects */
 
+.s-projects{
+    background:  #e2e5e6 ;
+    margin-bottom: 6em;
+}
+
 .container_projects{
     text-align: center;
     margin: 2em;
     padding-top: 1em;
+    background:  #b3b6b7 ;
 }
 .container_projects h2{
     font-size: 3em;
+    padding: 2em;
 }
 .container_group{
     display: flex;
@@ -150,4 +175,43 @@ button{
 img{
     width: 30em;
     margin-bottom: 1em;
+}
+/* section contact */
+.container_contact h3{
+    text-align: center;
+    font-size: 2.5em;
+    font-weight: bold;
+    margin-top: 2em;
+}
+.tex_contact{
+    text-align: center;
+    
+
+}
+/* section Form */
+
+.container_form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    background: red;
+}
+form{
+    background: white;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.datos{
+    background: hotpink;
+    width: 80%;
+}
+/* datos */
+.name{
+    background-color: #a6acaf;
+    height: 5em;
 }
